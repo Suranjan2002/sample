@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Creation and testing</title>
+    <link rel="table_style.css" href="table_style.css">
+    <style>
+        table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+th{
+    background-color: coral;
+}
+td{
+    background-color:cornflowerblue ;
+}
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+        <th>Subject</th>
+        <th>Theory</th>
+        <th>Practical</th>
+        <th>Total Marks</th>
+        <th>Grades</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>English</td>
+            <td>75</td>
+            <td>-</td>
+            <td>75</td>
+            <td>81</td>
+            </tr>
+          <tr>
+            <td>Computer</td>
+            <td>80</td>
+            <td>15</td>
+            <td>95</td>
+            <td>99</td>
+          </tr>
+          <tr>
+            <td>Physics</td>
+            <td>65</td>
+            <td>20</td>
+            <td>85</td>
+            <td>91</td>
+          </tr>
+          <tr>
+            <td>Chemistry</td>
+            <td>79</td>
+            <td>20</td>
+            <td>99</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>Biology</td>
+            <td>80</td>
+            <td>20</td>
+            <td>100</td>
+            <td>100</td>
+          </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">Result:PASS</th>
+        </tfoot>
+    </table>
+</body>
+</html>
